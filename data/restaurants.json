@@ -1,0 +1,50 @@
+[
+  {
+    "id": "r1",
+    "name": "GoTastee",
+    "address": "15, lasu road, ojo",
+    "cuisine": "Italian",
+    "website": "https://GoTastee.com",
+    "recommend": "It's worth the hype!"
+  },
+  {
+    "id": "r2",
+    "name": "GoTastee",
+    "address": "15, lasu road, ojo",
+    "cuisine": "Italian",
+    "website": "https://GoTastee.com",
+    "recommend": "Go try it out and see for yourself!"
+  },
+  {
+    "name": "Munich Fines Restaurant",
+    "address": "Great street 5, Munich",
+    "cuisine": "German",
+    "website": "https:/munich.com",
+    "recommend": "It's in Munich!",
+    "id": "ac3c0216-79a3-4981-8353-18e0a510bc0b"
+  },
+  {
+    "name": "Alpha Foods",
+    "address": "15, New York Street",
+    "cuisine": "italian",
+    "website": "https://mcdonalds.com",
+    "recommend": "Wow!",
+    "id": "00b82725-3337-4058-81bf-21d3e1f38c86"
+  },
+  {
+    "name": "Dominos Pizza",
+    "address": "15, Egbeda Rd",
+    "cuisine": "Pizza & Coldstone",
+    "website": "https://dominospizza.com",
+    "recommend": "It taste so amazing!",
+    "id": "3d1c932b-5f0e-46ad-8ffc-f4275373065c"
+  },
+  {
+    "name": "Amazing Grace",
+    "address": "15, Amazing Grace way",
+    "cuisine": "Italian",
+    "website": "https://amazinggrace.com",
+    "recommend": "It is totally worth the hype!",
+    "id": "19d2d68f-8e1c-40c3-9930-003fadc04981"
+  }
+]

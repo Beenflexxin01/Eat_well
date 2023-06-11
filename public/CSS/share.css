@@ -1,0 +1,93 @@
+.form-info {
+    text-align: center;
+    color: rgb(190, 151, 21);
+}
+
+.section-form {
+    width: 500px;
+    margin: auto;
+    padding: 1.2rem;
+
+}
+
+ul {
+    font: inherit;
+    list-style: none;
+    color: rgb(100, 10, 21);
+    margin: 0;
+    padding: 0.6rem;
+}
+
+form {
+    width: 30rem;
+    margin: 1.5rem;
+    background-color: rgb(228, 183, 101);
+    border-radius: 6px;
+}
+
+label {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
+
+input,
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    border: 1px solid rgb(12, 22, 21);
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(247, 247, 247);
+    color: black;
+}
+
+button {
+    background-color: rgb(228, 169, 61);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgb(12, 22, 21);
+}
+
+button:hover {
+    background-color: rgb(177, 137, 63);
+    color: rgb(100, 10, 21);
+}
+
+@media (max-width: 34em) {
+    .section-form {
+        width: 300px;
+        padding: 0;
+        padding-top: 2rem;
+        display: inline-block;
+
+    }
+
+    .form-info {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    form {
+        width: 24rem;
+        background-color: transparent;
+    }
+
+    input,
+    textarea {
+        padding: 0.7rem;
+    }
+
+}

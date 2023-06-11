@@ -1,0 +1,60 @@
+.section-main {
+    font: inherit;
+    text-align: center;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+.btn-link {
+    list-style: none;
+    margin: 0.7rem;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    justify-content: center;
+}
+
+.link-list {
+    padding: 1.2rem;
+}
+
+.link:link,
+.link:visited {
+    padding: 0.25rem;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    height: 5rem;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: rgb(190, 159, 21);
+}
+
+@media (max-width: 34em) {
+    .btn-link {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    .btn {
+        width: 15rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+    }
+}
