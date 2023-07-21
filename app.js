@@ -31,4 +31,10 @@ app.use(function (error, req, res, next) {
     res.status(500).render('500');
 })
 
-app.listen(3000);
+const port = process.env.PORT || 3000;
+
+const server = app.listen(port, function () {
+  console.log('App is running on port 3000.....');
+});
+
+// app.listen(3000);

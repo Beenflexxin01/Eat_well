@@ -4,7 +4,8 @@
   "description": "Gettingn started with Node & Express",
   "main": "appp.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Adenola Omotayo",
   "license": "MIT",
